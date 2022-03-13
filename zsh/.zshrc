@@ -8,7 +8,8 @@ bindkey '^R' history-incremental-search-backward
 # aliases
 alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
-alias btop='btop --utf-force'
+
+source /etc/locale.conf
 
 # prompt
 PROMPT='%F{cyan}%n%f@%m %F{blue}%1~%f %(?..%F{red}[%?]%f)%# '
