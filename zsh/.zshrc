@@ -3,7 +3,9 @@ autoload -Uz compinit && compinit
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 
 # bindkey -v
-bindkey '^R' history-incremental-search-backward
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+bindkey "\e[3~" delete-char
 
 # aliases
 alias ls='ls --color=auto'
