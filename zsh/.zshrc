@@ -10,6 +10,7 @@ bindkey "\e[3~" delete-char
 # aliases
 alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
+alias dmesgc='dmesg --color=always | less -r'
 
 source /etc/locale.conf
 
