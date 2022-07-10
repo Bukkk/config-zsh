@@ -12,6 +12,7 @@ alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
 alias dmesgc='dmesg --color=always | less -r'
 alias sudo='doas'
+alias btw='neofetch'
 
 source /etc/locale.conf
 
